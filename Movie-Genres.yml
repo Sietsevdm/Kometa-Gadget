@@ -1,1 +1,251 @@
+templates:
+  Collection:
+    optional_fields:
+      - collection
+      - movie
+    tmdb_collection_details: "{{collection}}"
+    tmdb_movie: "{{movie}}"
+    url_poster: "{{poster}}"
+    sync_mode: sync
+    collection_order: release
+  Trakt:
+    trakt_list_details: "{{list}}"
+    url_poster: "{{poster}}"
+    sync_mode: sync
+    collection_order: custom
+
+collections:
+  100% on RottenTomatoes:
+    sort_title: "!06_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/hdlists/lists/100-on-rottentomatoes-com
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://i.imgur.com/RJDvnNs.png
+
+  Oscar Nominated:
+    sort_title: "!07_{{collection_name}}"
+    imdb_list: https://www.imdb.com/search/title/?title_type=feature&groups=oscar_nominee&sort=release_date,desc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/244711/
+
+  Top Movies on Netflix:
+    sort_title: "!09_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/hdlists/lists/best-movies-on-netflix-march-2021?sort=released,desc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/220354/
+
+  Adventure Movies:
+    sort_title: "!10_{{collection_name}}"
+    trakt_list:
+      - https://trakt.tv/users/movistapp/lists/adventure?sort=released,desc
+      - https://trakt.tv/users/jtucci/lists/adventure?sort=released,desc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/52218/
+
+  Alien Movies:
+    sort_title: "!11_{{collection_name}}"
+    trakt_list:
+      - https://trakt.tv/users/29zombies/lists/aliens?sort=released,desc
+      - https://trakt.tv/users/breez22/lists/alien-movies?sort=title,asc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://i.imgur.com/TDyJQew.jpg
+
+  Based on Books:
+    sort_title: "!12_{{collection_name}}"
+    imdb_list: https://www.imdb.com/list/ls004573789/
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://i.imgur.com/kyjFoGs.png
+
+  Disaster Movies:
+    sort_title: "!15_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/29zombies/lists/disaster?sort=released,desc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/212898/
+
+  DreamWorks:
+    sort_title: "!16_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/hdlists/lists/dreamworks-movie-collection?sort=released,desc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/164292/
+
+  Fantasy Movies:
+    sort_title: "!17_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/rizreflects/lists/fantasy-movies?sort=released,asc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/51476/
+
+  History Movies:
+    sort_title: "!18_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/garycrawfordgc/lists/history?sort=released,desc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://i.imgur.com/Qwwf9Rw.jpg
+
+  Martial Arts:
+    sort_title: "!20_{{collection_name}}"
+    imdb_list: https://www.imdb.com/list/ls000099643/
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/51773/
+
+  Monster Movies:
+    sort_title: "!21_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/steve041/lists/monster-movies?sort=released,asc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://i.imgur.com/QhgYCCB.jpg
+
+  Mindbending Movies:
+    sort_title: "!22_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/hdlists/lists/mindfuck-movies?sort=released,desc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://i.imgur.com/CoHaPfp.jpg
+
+  Music Movies:
+    sort_title: "!23_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/siskourso/lists/music-movies?sort=released,asc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://i.imgur.com/vBbzYaR.jpg
+
+  Pandemic Movies:
+    sort_title: "!24_{{collection_name}}"
+    trakt_list:
+      - https://trakt.tv/users/bonyboy/lists/pandemic-list?sort=released,desc
+      - https://trakt.tv/users/y0dase/lists/outbreaks-pandemics?sort=released,desc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://i.imgur.com/SEGDQHl.jpg
+
+  Pixar:
+    sort_title: "!25_{{collection_name}}"
+    trakt_list:
+      - https://trakt.tv/users/toasterfaerie/lists/pixar?sort=released,desc
+      - https://trakt.tv/users/chloe131997/lists/pixar?sort=released,desc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/170834/
+
+  Plot Twist:
+    sort_title: "!26_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/hdlists/lists/crazy-plot-twists?sort=released,desc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://i.imgur.com/zzbfAVG.png
+
+  Superhero Movies:
+    sort_title: "!28_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/hdlists/lists/superhero-movies-from-1980-to-today?sort=released,desc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://i.imgur.com/nBUlYMV.jpg
+
+  Thriller Movies:
+    sort_title: "!29_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/maxtrontv/lists/thriller-movies?sort=released,asc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://i.imgur.com/mb2VcnK.jpg
+
+  True Stories:
+    sort_title: "!30_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/darksideno1/lists/true-story-movies?sort=released,asc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/242813/
+
+  War Movies:
+    sort_title: "!32_{{collection_name}}"
+    trakt_list:
+      - https://trakt.tv/users/movistapp/lists/war?sort=released,desc
+      - https://trakt.tv/users/rizreflects/lists/war-movies?sort=released,asc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://i.imgur.com/idQUTy3.jpg
+
+  Top Rated Comedy:
+    sort_title: "!34_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/hdlists/lists/comedy-movies-top-rated-from-1960-to-today?sort=released,desc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://i.imgur.com/U4dMgoO.jpg
+
+  Top Rated Crime:
+    sort_title: "!35_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/hdlists/lists/crime-movies-top-rated-from-1980-to-today?sort=released,desc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://i.imgur.com/LDXOVu6.png
+
+  Top Rated Documentary:
+    sort_title: "!36_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/hdlists/lists/documentary-movies-top-rated-from-1980-to-today?sort=released,desc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/51430/
+
+  Top Rated Family:
+    sort_title: "!38_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/hdlists/lists/family-movies-top-rated-from-1980-to-today?sort=released,desc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://i.imgur.com/Mfs8uDs.png
+
+  Top Rated Horror:
+    sort_title: "!40_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/hdlists/lists/horror-movies-top-rated-from-1960-to-today?sort=released,desc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://i.imgur.com/nnHLz3K.png
+
+  Top Rated Kids Animated:
+    sort_title: "!41_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/hdlists/lists/children-s-animated-movies-from-1950-to-today?sort=released,desc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/246839/
+
+  Top Rated Sci-Fi:
+    sort_title: "!43_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/hdlists/lists/fantasy-sci-fi-movies-top-rated-from-1980-to-today?sort=released,desc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/51772/
 
