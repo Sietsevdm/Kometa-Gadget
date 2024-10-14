@@ -1,0 +1,67 @@
+libraries:
+  Movies:  # Each library must match the Plex library name
+    metadata:
+      - folder: github_repo/Movies   # Folder path in the repository where movie .yml files are stored
+        schedule: weekly(monday)
+
+  TV Shows:
+    metadata:
+      - folder: github_repo/TV Shows  # Folder path in the repository where TV show .yml files are stored
+        schedule: weekly(monday)
+
+playlists:
+  - folder: github_repo/Playlists  # Folder path in the repository where playlist .yml files are stored
+
+settings:
+  cache: true
+  cache_expiration: 60
+  asset_directory: config/assets
+  asset_folders: false
+  asset_depth: 0
+  create_asset_folders: false
+  prioritize_assets: true
+  sync_mode: append
+  minimum_items: 2
+  delete_below_minimum: true
+  delete_not_scheduled: false
+  run_again_delay: 2
+  show_missing: true
+  show_missing_assets: true
+  tvdb_language: eng
+
+custom_repo:
+  url: https://github.com/Sietsevdm/Kometa-Gadget  # Replace with your GitHub repository URL
+  branch: main  # Branch name (default is main)
+  files:
+    - path: movies  # Path within the GitHub repository for movie metadata
+    - path: tvshows  # Path within the GitHub repository for TV shows metadata
+    - path: playlists  # Path within the GitHub repository for playlists
+
+plex:
+  url: hhttp://gadget:32400  # Your Plex server URL
+  token: dsLb5CwZ2Dzuy2vvsxv3  # Replace with your actual Plex token
+
+tmdb:
+  apikey: 2237d92b2a9fa0742c050e1cd6125432  # Replace with your TMDB API key
+  language: en
+  cache_expiration: 60
+  
+tautulli:
+  url: http://gadgettautulli:8181
+  apikey: 5H3WYs3iu9rkaxLTSG7W2rqGgY-Fcffh
+  
+mdblist:
+  apikey: scxf3nbvmq4aee7eval71sz8h
+  cache_expiration: 60
+
+trakt:
+  client_id: 3cb56d1a994c2b626619eeae4756b4ff18fbb22f5dbc94c231e05ab26cc346d9  # Replace with your Trakt client ID
+  client_secret: 1f1679dc5a115eedb568491aba26df5770c29b1b6fdd0203b3cf2d5b7b7f05d2  # Replace with your Trakt client secret
+  pin: 9d4f0ae8  # Replace with your Trakt pin
+  authorization:
+    access_token: cb115f5c630ae160bd5434baa6c03f1ba7530e57250f1a741aec8593a0e4a56e
+    token_type: Bearer
+    expires_in: 7889237
+    refresh_token: dcbce579fe6557cebf44fdae92c538fd435cb682280a90126b6ac5535a0a80a6
+    scope: public
+    created_at: 1665575615
