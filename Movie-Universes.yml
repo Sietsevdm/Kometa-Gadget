@@ -1,0 +1,69 @@
+templates:
+  Collection:
+    optional_fields:
+      - collection
+      - movie
+    tmdb_collection_details: "{{collection}}"
+    tmdb_movie: "{{movie}}"
+    url_poster: "{{poster}}"
+    sync_mode: sync
+    collection_order: release
+  Trakt:
+    trakt_list_details: "{{list}}"
+    url_poster: "{{poster}}"
+    sync_mode: sync
+    collection_order: custom
+
+collections:
+
+  Marvel Cinematic Universe:
+    trakt_list: https://trakt.tv/users/drob70/lists/mcu-movies?sort=released,desc
+    collection_order: custom
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/162885
+    summary: |
+      The Marvel Cinematic Universe is a collection of movies and television series 
+      that tell a singular narrative related to Marvel characters, settings, and stories. 
+      The MCU is a product from Disney and Marvel that brings us heroes from Black Panther 
+      and Doctor Strange to Spider-Man and Iron Man.
+
+  Middle Earth:
+    trakt_list: https://trakt.tv/users/jjmalpz/lists/middle-earth?sort=rank,asc
+    collection_order: custom
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/191460
+
+  DC Extended Universe:
+    trakt_list: https://trakt.tv/users/rzepkowski/lists/dc-extended-universe-movies?sort=released,desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/48242
+
+  Disney Live-Action Remakes:
+    trakt_list: https://trakt.tv/users/smwixted/lists/disney-animated-live-action-remakes?sort=released,desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/200068
+
+  Disney Animation:
+    trakt_list: https://trakt.tv/users/kuilvio/lists/disney-animations?sort=released,asc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/11845
+
+  The Karate Kid:
+    trakt_list: https://trakt.tv/users/allindo/lists/karate-kid?sort=rank,asc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/397019
+    summary: |
+      The first three films in the series follow Daniel LaRusso, who learns to harness 
+      karate for good through the eccentric mentorship of a janitor named Mr. Miyagi. 
+      In the fourth and final film of the original series, Mr. Miyagi becomes the caretaker 
+      of his friend's granddaughter in an attempt to steer her away from trouble.
+
+  National Treasure:
+    trakt_list: https://trakt.tv/users/ioannis72/lists/boxset-national-treasure?sort=rank,asc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/217531
+    summary: |
+      The collection of theatrical action-adventure mystery films starring Nicolas Cage as 
+      Benjamin Gates, a treasure hunter who, with the help of his father, Patrick Henry Gates (Jon Voight), 
+      his girlfriend, Abigail Chase (Diane Kruger), and his loyal sidekick, Riley Poole (Justin Bartha), 
+      uncovers hidden troves and secrets from America's past.
