@@ -1,0 +1,116 @@
+templates:
+  Collection:
+    optional:
+      - collection
+      - movie
+    tmdb_collection_details: {{collection}}
+    tmdb_movie: {{movie}}
+    url_poster: {{poster}}
+    sync_mode: sync
+    collection_order: release
+  Trakt:
+    trakt_list_details: {{list}}
+    url_poster: {{poster}}
+    sync_mode: sync
+    collection_order: custom
+
+collections:
+  Mr. Gadget TV Recommendations:
+    sort_title: +01_01{{collection_name}}
+    trakt_list:
+      - https://trakt.tv/users/sietsevdm/lists/mr-gadget-tv-recommendations?sort=added,asc
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://www.imgdumper.nl/uploads9/62cc6d5d6c07c/62cc6d5d67240-Gadget_Collection.png
+   
+  Marvel Cinematic Universe:
+    trakt_list: https://trakt.tv/users/arachn0id/lists/marvel-tv-series?sort=released,desc
+    url_poster: https://theposterdb.com/api/assets/162885
+    
+  24:
+    trakt_list: https://trakt.tv/users/sietsevdm/lists/24-universe?sort=released,asc
+    url_poster: https://theposterdb.com/api/assets/145477
+    
+  Arrowverse:
+    trakt_list: https://trakt.tv/users/acemc/lists/arrowverse-413f1ff6-931d-4c2d-a911-5d1b791aa1ec?sort=title,asc
+    url_poster: https://theposterdb.com/api/assets/133035
+
+  Band of Brothers:
+    trakt_list: https://trakt.tv/users/sietsevdm/lists/band-of-brothers
+    url_poster: https://theposterdb.com/api/assets/64948
+    
+  Below Deck:
+    trakt_list: https://trakt.tv/users/sietsevdm/lists/below-deck?sort=rank,asc
+    url_poster: https://www.imgdumper.nl/uploads9/62cc8df7f0d56/62cc8df7ed55f-poster.png
+    
+  Breaking Bad:
+    trakt_list: https://trakt.tv/users/sietsevdm/lists/breaking-bad
+    url_poster: https://theposterdb.com/api/assets/244137
+    
+  Buffyverse:
+    trakt_list: https://trakt.tv/users/psaul3/lists/buffyverse-3685939a-865c-40f3-ad40-c5e78288d912?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/363702
+    
+  CSI Franchise:
+    trakt_list: https://trakt.tv/users/arghhbooty/lists/csi?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/102143
+    
+  Downton Abbey: 
+    trakt_list: https://trakt.tv/lists/official/downton-abbey-collection?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/364515
+    
+  Heroes:
+    trakt_list: https://trakt.tv/users/sietsevdm/lists/heroes
+    url_poster: https://theposterdb.com/api/assets/10009
+    
+  Ghost Adventures:
+    trakt_list: https://trakt.tv/users/neontiger57/lists/ghost-adventures?sort=released,asc
+    url_poster: https://theposterdb.com/api/assets/181373
+    
+  Narcos:
+    trakt_list: https://trakt.tv/users/sietsevdm/lists/narcos
+    url_poster: https://theposterdb.com/api/assets/44816
+    
+  NCIS:
+    trakt_list: https://trakt.tv/users/krissykk/lists/ncis?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/459329
+    
+  Planet Collection:
+    trakt_list: https://trakt.tv/users/itsthatja/lists/planet-collection?sort=released,desc
+    url_poster: https://theposterdb.com/api/assets/237245
+    
+  Power Universe:
+    trakt_list: https://trakt.tv/users/amourgirl1/lists/power-universe?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/424453
+    
+  Star Wars:
+    trakt_list: https://trakt.tv/users/ioannis72/lists/boxset-tv-series-star-wars?sort=title,asc
+    url_poster: https://theposterdb.com/api/assets/133720
+    
+  Star Trek:
+    trakt_list: https://trakt.tv/users/paulison1966/lists/star-trek-tv-series?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/242851
+    
+  Stargate:
+    trakt_list: https://trakt.tv/users/zaphod703/lists/stargate?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/409021
+    
+  The Boys:
+    trakt_list: https://trakt.tv/users/lorequa96/lists/the-boys-universe?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/408209
+    
+  TWD Universe: 
+    trakt_list: https://trakt.tv/users/marcynas1/lists/the-walking-dead-universe?sort=released,desc
+    url_poster: https://theposterdb.com/api/assets/374456
+    
+  The Witcher: 
+    trakt_list: https://trakt.tv/users/martials/lists/the-witcher-chronological-order?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/375065
+    
+  One Chicago:
+    trakt_list: https://trakt.tv/users/psychonoob/lists/one-chicago?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/378169
+    
+  Yellowstone:
+    trakt_list: https://trakt.tv/users/kylereddoch/lists/yellowstone-universe?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/409022
