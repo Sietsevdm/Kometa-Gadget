@@ -114,3 +114,7 @@ collections:
   Yellowstone:
     trakt_list: https://trakt.tv/users/kylereddoch/lists/yellowstone-universe?sort=rank,asc
     url_poster: https://theposterdb.com/api/assets/409022
+
+  Vikings:
+    trakt_list: https://trakt.tv/users/blazin887/lists/vikings?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/251220
