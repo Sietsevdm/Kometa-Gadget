@@ -1,1 +1,1403 @@
+#########################################################################
+#                            Movie Collections                          #
+#########################################################################
+templates:
+  Collection:
+    optional:
+      - collection
+      - movie
+    tmdb_collection_details: {{collection}}
+    tmdb_movie: {{movie}}
+    url_poster: {{poster}}
+    sync_mode: sync
+    collection_order: release
+
+collections:
+  101 Dalmatians:
+    template: Collection
+    variables:
+      collection: 124916
+      poster: https://theposterdb.com/api/assets/19948
+  28:
+    template: Collection
+    variables:
+      collection: 1565
+      poster: https://theposterdb.com/api/assets/24138
+  300:
+    template: Collection
+    variables:
+      collection: 125570
+      poster: https://theposterdb.com/api/assets/5575
+  47 Meters Down:
+    template: Collection
+    variables:
+      collection: 635922
+      poster: https://theposterdb.com/api/assets/21610
+  Ace Venture:
+    template: Collection
+    variables:
+      collection: 3167
+      poster: https://theposterdb.com/api/assets/6612
+  Addams Family:
+    template: Collection
+    variables:
+      collection: "11716, 750822"
+      poster: https://theposterdb.com/api/assets/3938
+  Accident Man:
+    template: Collection
+    variables:
+      collection: 947848
+      poster: https://theposterdb.com/api/assets/275505
+  After:
+    template: Collection
+    variables:
+      collection: 702624
+      poster: https://theposterdb.com/api/assets/178591
+  Alice in Wonderland:
+    template: Collection
+    variables:
+      collection: 261307
+      poster: https://theposterdb.com/api/assets/36521
+  Alien:
+    template: Collection
+    variables:
+      collection: "8091, 135416, 115762"
+      poster: https://theposterdb.com/api/assets/170732
+  AVP Collection:
+    template: Collection
+    variables:
+      collection: 115762
+      poster: https://theposterdb.com/api/assets/525305
+  American Pie:
+    template: Collection
+    variables:
+      collection: "2806, 298820"
+      poster: https://theposterdb.com/api/assets/68418
+  Amityville:
+    template: Collection
+    variables:
+      collection: 397842
+      poster: https://theposterdb.com/api/assets/23171
+  Anaconda:
+    template: Collection
+    variables:
+      collection: 105995
+      movie: 336560
+      poster: https://theposterdb.com/api/assets/72418
+  Almighty:
+    template: Collection
+    variables:
+      collection: 124949
+      poster: https://theposterdb.com/api/assets/26961
+  Austin Powers:
+    template: Collection
+    variables:
+      collection: 1006
+      poster: https://theposterdb.com/api/assets/35262
+  The Amazing Spider-Man:
+    template: Collection
+    variables:
+      collection: 125574
+      poster: https://theposterdb.com/api/assets/163875
+  American Psycho:
+    template: Collection
+    variables:
+      collection: 86105
+      poster: https://theposterdb.com/api/assets/153799
+  Anchorman:
+    template: Collection
+    variables:
+      collection: 93791
+      poster: https://theposterdb.com/api/assets/52252
+  Annabelle:
+    template: Collection
+    variables:
+      collection: 402074
+      poster: https://theposterdb.com/api/assets/163821
+  Ant-Man:
+    template: Collection
+    variables:
+      collection: 422834
+      poster: https://theposterdb.com/api/assets/162886
+  The Avengers:
+    template: Collection
+    variables:
+      collection: 86311
+      poster: https://theposterdb.com/api/assets/162894
+  Aquaman:
+    template: Collection
+    variables:
+      collection: 573693
+      poster: https://theposterdb.com/api/assets/412533
+  Back to the Future:
+    template: Collection
+    variables:
+      collection: 264
+      poster: https://theposterdb.com/api/assets/87588
+  Bad Boys:
+    template: Collection
+    variables:
+      collection: 14890
+      poster: https://theposterdb.com/api/assets/38003
+  Bad Moms:
+    template: Collection
+    variables:
+      collection: 487376
+      poster: https://theposterdb.com/api/assets/37632
+  Bad Santa:
+    template: Collection
+    variables:
+      collection: 423173
+      poster: https://theposterdb.com/api/assets/37643
+  Batman Classic:
+    template: Collection
+    variables:
+      collection: 120794
+      poster: https://theposterdb.com/api/assets/50893
+  Big Momma's House:
+    template: Collection
+    variables:
+      collection: 44979
+      poster: https://theposterdb.com/api/assets/98656
+  Black Panther:
+    template: Collection
+    variables:
+      collection: 529892
+      poster: https://theposterdb.com/api/assets/162887
+  Blade Runner:
+    template: Collection
+    variables:
+      collection: 422837
+      poster: https://theposterdb.com/api/assets/28342
+  Blair Witch:
+    template: Collection
+    variables:
+      collection: 64750
+      poster: https://theposterdb.com/api/assets/102330
+  Borat Moviefilms:
+    template: Collection
+    variables:
+      collection: 747168
+      poster: https://theposterdb.com/api/assets/107766
+  The Batman:
+    template: Collection
+    variables:
+      collection: 948485
+      poster: https://theposterdb.com/api/assets/295096
+  The Boy:
+    template: Collection
+    variables:
+      collection: 666337
+      poster: https://theposterdb.com/api/assets/84869
+  The Butterfly Effect:
+    template: Collection
+    variables:
+      collection: 52749
+      poster: https://theposterdb.com/api/assets/179334
+  The Black Phone:
+    template: Collection
+    variables:
+      collection: 1197140
+      poster: https://theposterdb.com/api/assets/445401
+  Barbershop:
+    template: Collection
+    variables:
+      collection: 176097
+      movie: 14177
+      poster: https://theposterdb.com/api/assets/83374
+  Beverly Hills Cop:
+    template: Collection
+    variables:
+      collection: 85861
+      poster: https://theposterdb.com/api/assets/45076
+  Blade:
+    template: Collection
+    variables:
+      collection: 735
+      poster: https://theposterdb.com/api/assets/163859
+  Bourne:
+    template: Collection
+    variables:
+      collection: 31562
+      poster: https://theposterdb.com/api/assets/5420
+  Bird Box:
+    template: Collection
+    variables:
+      collection: 731067
+      poster: https://image.tmdb.org/t/p/original//fWKh5tpyYxiPUbQ5otx6IWYUfpi.jpg
+  Children of the Corn:
+    template: Collection
+    variables:
+      collection: 115225
+      poster: https://theposterdb.com/api/assets/155142
+  Childs Play (Chucky):
+    template: Collection
+    variables:
+      collection: 10455
+      movie: 533642
+      poster: https://theposterdb.com/api/assets/407431
+  The Chronicles of Narnia:
+    template: Collection
+    variables:
+      collection: 420
+      poster: https://theposterdb.com/api/assets/34872
+  The Chronicles of Riddick:
+    template: Collection
+    variables:
+      collection: 2794
+      poster: https://theposterdb.com/api/assets/26841
+  Cloverfield:
+    template: Collection
+    variables:
+      imdb_list: https://www.imdb.com/list/ls021933730/
+      url_poster: https://theposterdb.com/api/assets/80490
+      summary: >
+        Cloverfield is an American science fiction anthology film series and media franchise created and produced by J. J. Abrams. It consists of three films, viral marketing websites linking the films together, and a tie-in manga to the first film titled Cloverfield/Kishin (2008). The franchise is set in a shared fictional universe referred to as the "Cloververse." Creatures from other dimensions attack Earth due to an experiment by astronauts aboard the Cloverfield Station. Each film depicts the reality-altering effects of their study, which was meant to find a new energy source but inadvertently opened portals for assaults from various beasts from deep space.
+  The Conjuring Universe:
+    template: Collection
+    variables:
+      collection: [313086, 402074]
+      movie: 439079
+      poster: https://theposterdb.com/api/assets/23524
+  The Crow:
+    template: Collection
+    variables:
+      collection: 9436
+      poster: https://theposterdb.com/api/assets/6725
+  Captain America:
+    template: Collection
+    variables:
+      collection: 131295
+      poster: https://theposterdb.com/api/assets/162888
+  The Christmas Chronicles:
+    template: Collection
+    variables:
+      collection: 743824
+      poster: https://theposterdb.com/api/assets/110742
+  Clash of the Titans:
+    template: Collection
+    variables:
+      collection: 86780
+      poster: https://theposterdb.com/api/assets/34933
+  The Collector:
+    template: Collection
+    variables:
+      collection: 165369
+      poster: https://theposterdb.com/api/assets/83974
+  Coming to America:
+    template: Collection
+    variables:
+      collection: 647077
+      poster: https://theposterdb.com/api/assets/136197
+  Conan the Barbarian:
+    template: Collection
+    variables:
+      collection: 43055
+      poster: https://theposterdb.com/api/assets/65624
+  Code 8:
+    template: Collection
+    variables:
+      collection: 1196403
+      poster: https://theposterdb.com/api/assets/452822
+  The Conjuring:
+    template: Collection
+    variables:
+      collection: 313086
+      poster: https://theposterdb.com/api/assets/156081
+  Crank:
+    template: Collection
+    variables:
+      collection: 64751
+      poster: https://theposterdb.com/api/assets/168168
+  Creed:
+    template: Collection
+    variables:
+      collection: 553717
+      poster: https://theposterdb.com/api/assets/35114
+  Death Race:
+    template: Collection
+    variables:
+      collection: 86116
+      poster: https://theposterdb.com/api/assets/165641
+  Detective Knight:
+    template: Collection
+    variables:
+      collection: 1037353
+      poster: https://theposterdb.com/api/assets/326321
+  Daddy's Home:
+    template: Collection
+    variables:
+      collection: 473971
+      poster: https://theposterdb.com/api/assets/14099
+  The Dark Knight:
+    template: Collection
+    variables:
+      collection: 263
+      poster: https://theposterdb.com/api/assets/24716
+  Deadpool:
+    template: Collection
+    variables:
+      collection: 448150
+      poster: https://theposterdb.com/api/assets/163901
+  Don't Breathe:
+    template: Collection
+    variables:
+      collection: 748919
+      poster: https://theposterdb.com/api/assets/168637
+  Doctor Strange:
+    template: Collection
+    variables:
+      collection: 618529
+      poster: https://theposterdb.com/api/assets/162890
+  Dr. Dolittle:
+    template: Collection
+    variables:
+      collection: 3169
+      poster: https://theposterdb.com/api/assets/25070
+  Dragon Ball:
+    template: Collection
+    variables:
+      collection: "425164, 386410"
+      poster: https://theposterdb.com/api/assets/168842
+  DragonHeart:
+    template: Collection
+    variables:
+      collection: 169452
+      poster: https://theposterdb.com/api/assets/59484
+  Dumb and Dumber:
+    template: Collection
+    variables:
+      collection: 96665
+      poster: https://theposterdb.com/api/assets/12114
+  Die Hard:
+    template: Collection
+    variables:
+      collection: 1570
+      poster: https://theposterdb.com/api/assets/35440
+  Dirty Harry:
+    template: Collection
+    variables:
+      collection: 10456
+      poster: https://theposterdb.com/api/assets/50755
+  Divergent:
+    template: Collection
+    variables:
+      collection: 283579
+      poster: https://theposterdb.com/api/assets/35469
+  Dune:
+    template: Collection
+    variables:
+      collection: 726871
+      poster: https://theposterdb.com/api/assets/393189
+  Escape Plan:
+    template: Collection
+    variables:
+      collection: 525891
+      poster: https://theposterdb.com/api/assets/435936
+  Evil Dead:
+    template: Collection
+    variables:
+      collection: 1960
+      poster: https://theposterdb.com/api/assets/7075
+  Enola Holmes:
+    template: Collection
+    variables:
+      collection: 829314
+      poster: https://theposterdb.com/api/assets/290021
+  The Exorcist:
+    template: Collection
+    variables:
+      collection: 12263
+      poster: https://theposterdb.com/api/assets/66163
+  The Expendables:
+    template: Collection
+    variables:
+      collection: 126125
+      poster: https://theposterdb.com/api/assets/87137
+  Extraction:
+    template: Collection
+    variables:
+      collection: 735127
+      poster: https://theposterdb.com/api/assets/374831
+  The Equalizer:
+    template: Collection
+    variables:
+      collection: 523855
+      poster: https://theposterdb.com/api/assets/37023
+  Escape Room:
+    template: Collection
+    variables:
+      collection: 769423
+      poster: https://theposterdb.com/api/assets/175227
+  The Fast and the Furious:
+    template: Collection
+    variables:
+      collection: 9485
+      movie: 384018
+      poster: https://theposterdb.com/api/assets/356138
+  Fantastic Beasts:
+    template: Collection
+    variables:
+      collection: 435259
+      poster: https://theposterdb.com/api/assets/169
+  Fantastic Four:
+    template: Collection
+    variables:
+      collection: 9744
+      movie: 166424
+      poster: https://theposterdb.com/api/assets/150619
+  Fear Street:
+    template: Collection
+    variables:
+      collection: 790370
+      poster: https://theposterdb.com/api/assets/163471
+  Fifty Shades:
+    template: Collection
+    variables:
+      collection: 344830
+      poster: https://theposterdb.com/api/assets/38636
+  Final Destination:
+    template: Collection
+    variables:
+      collection: 8864
+      poster: https://theposterdb.com/api/assets/165946
+  Friday:
+    template: Collection
+    variables:
+      collection: 43563
+      poster: https://theposterdb.com/api/assets/28461
+  Friday the 13th:
+    template: Collection
+    variables:
+      collection: 9735
+      movie: "13207, 6466"
+      poster: https://theposterdb.com/api/assets/105488
+  Ghostbusters:
+    template: Collection
+    variables:
+      collection: 2980
+      movie: 43074
+      poster: https://theposterdb.com/api/assets/203163
+  The Godfather:
+    template: Collection
+    variables:
+      collection: 230
+      poster: https://theposterdb.com/api/assets/95306
+  Gremlins:
+    template: Collection
+    variables:
+      collection: 89151
+      poster: https://theposterdb.com/api/assets/21149
+  G.I. Joe:
+    template: Collection
+    variables:
+      collection: 135468
+      poster: https://theposterdb.com/api/assets/42723
+  Gladiator:
+    template: Collection
+    variables:
+      collection: 1069584
+      poster: https://theposterdb.com/api/assets/460855
+  George of the Jungle:
+    template: Collection
+    variables:
+      collection: 126221
+      poster: https://theposterdb.com/api/assets/22402
+  Ghost Rider:
+    template: Collection
+    variables:
+      collection: 90306
+      poster: https://theposterdb.com/api/assets/163915
+  Goosebumps:
+    template: Collection
+    variables:
+      collection: 508783
+      poster: https://theposterdb.com/api/assets/13946
+  Grease:
+    template: Collection
+    variables:
+      collection: 86083
+      poster: https://theposterdb.com/api/assets/185499
+  Guardians of the Galaxy:
+    template: Collection
+    variables:
+      collection: 284433
+      poster: https://theposterdb.com/api/assets/162891
+  The Grudge:
+    template: Collection
+    variables:
+      collection: 1974
+      movie: 465086
+      poster: https://theposterdb.com/api/assets/100697
+  Happy Death Day:
+    template: Collection
+    variables:
+      collection: 526380
+      poster: https://theposterdb.com/api/assets/373371
+  Halloween:
+    template: Collection
+    variables:
+      collection: "91361, 126209"
+      poster: https://theposterdb.com/api/assets/8202
+  Has Fallen:
+    template: Collection
+    variables:
+      collection: 386534
+      poster: https://theposterdb.com/api/assets/29972
+  The Hangover:
+    template: Collection
+    variables:
+      collection: 86119
+      poster: https://theposterdb.com/api/assets/51805
+  Hannibal Lecter:
+    template: Collection
+    variables:
+      collection: 9743
+      movie: 11454
+      poster: https://theposterdb.com/api/assets/82925
+  Harry Potter:
+    template: Collection
+    variables:
+      collection: 1241
+      poster: https://theposterdb.com/api/assets/214852
+  Hellraiser:
+    template: Collection
+    variables:
+      collection: 8917
+      poster: https://theposterdb.com/api/assets/8229
+  The Hobbit:
+    template: Collection
+    variables:
+      collection: 121938
+      poster: https://theposterdb.com/api/assets/191461
+  Hostel:
+    template: Collection
+    variables:
+      collection: 86578
+      poster: https://theposterdb.com/api/assets/19783
+  The Hunger Games:
+    template: Collection
+    variables:
+      collection: 131635
+      poster: https://theposterdb.com/api/assets/18154
+  Hellboy:
+    template: Collection
+    variables:
+      collection: 17235
+      movie: 456740
+      poster: https://theposterdb.com/api/assets/11245
+  Herbie:
+    template: Collection
+    variables:
+      collection: 12087
+      poster: https://theposterdb.com/api/assets/30982
+  High School Musical:
+    template: Collection
+    variables:
+      collection: 87253
+      poster: https://theposterdb.com/api/assets/83046
+  The Hills Have Eyes:
+    template: Collection
+    variables:
+      collection: 8918
+      poster: https://theposterdb.com/api/assets/8502
+  Hitman:
+    template: Collection
+    variables:
+      collection: 737031
+      poster: https://theposterdb.com/api/assets/76227
+  The Hitmans Bodyguard:
+    template: Collection
+    variables:
+      collection: 608101
+      poster: https://theposterdb.com/api/assets/160629
+  Home Alone:
+    template: Collection
+    variables:
+      collection: 9888
+      poster: https://theposterdb.com/api/assets/50687
+  Horrible Bosses:
+    template: Collection
+    variables:
+      collection: 280588
+      poster: https://theposterdb.com/api/assets/41514
+  Hot Tub Time Machine:
+    template: Collection
+    variables:
+      collection: 313576
+      poster: https://theposterdb.com/api/assets/14255
+  The Huntsman:
+    template: Collection
+    variables:
+      collection: 393379
+      poster: https://theposterdb.com/api/assets/54036
+  Indiana Jones:
+    template: Collection
+    variables:
+      collection: 84
+      poster: https://theposterdb.com/api/assets/53303
+  I Know What You Did Last Summer:
+    template: Collection
+    variables:
+      collection: 3601
+      poster: https://theposterdb.com/api/assets/58929
+  I Am Legend:
+    template: Collection
+    variables:
+      collection: 945984
+      poster: https://theposterdb.com/api/assets/57308
+  I Spit On Your Grave:
+    template: Collection
+    variables:
+      collection: "296429, 162457"
+      poster: https://theposterdb.com/api/assets/435963
+  Independence Day:
+    template: Collection
+    variables:
+      collection: 304378
+      poster: https://theposterdb.com/api/assets/68261
+  Insidious:
+    template: Collection
+    variables:
+      collection: 228446
+      poster: https://theposterdb.com/api/assets/34535
+  Inspector Gadget:
+    template: Collection
+    variables:
+      collection: 237445
+      poster: https://theposterdb.com/api/assets/98477
+  Into the Blue:
+    template: Collection
+    variables:
+      collection: 174386
+      poster: https://theposterdb.com/api/assets/97178
+  Ip Man:
+    template: Collection
+    variables:
+      collection: 70068
+      movie: "44865, 182127, 658009, 875104, 450001"
+      poster: https://theposterdb.com/api/assets/52647
+  Iron Man:
+    template: Collection
+    variables:
+      collection: 131292
+      poster: https://theposterdb.com/api/assets/162892
+  It:
+    template: Collection
+    variables:
+      collection: 477962
+      poster: https://theposterdb.com/api/assets/164504
+  James Bond:
+    template: Collection
+    variables:
+      collection: 645
+      poster: https://theposterdb.com/api/assets/176906
+  Jaws:
+    template: Collection
+    variables:
+      collection: 2366
+      poster: https://theposterdb.com/api/assets/66353
+  Jeepers Creepers:
+    template: Collection
+    variables:
+      collection: 94899
+      poster: https://theposterdb.com/api/assets/44581
+  Joker:
+    template: Collection
+    variables:
+      collection: 987044
+      poster: https://theposterdb.com/api/assets/344062
+  Joyride:
+    template: Collection
+    variables:
+      collection: 166378
+      poster: https://theposterdb.com/api/assets/44595
+  Jurassic Park:
+    template: Collection
+    variables:
+      collection: 328
+      movie: 630322
+      poster: https://theposterdb.com/api/assets/158968
+  Jack Reacher:
+    template: Collection
+    variables:
+      collection: 403374
+      poster: https://theposterdb.com/api/assets/179489
+  Jack Ryan Collection:
+    template: Collection
+    variables:
+      collection: 192492
+      movie: "4614, 137094"
+      poster: https://theposterdb.com/api/assets/150531
+  Jackass:
+    template: Collection
+    variables:
+      collection: "17178, 989621"
+      movie: 265065
+      poster: https://theposterdb.com/api/assets/230245
+  Jarhead:
+    template: Collection
+    variables:
+      collection: 285564
+      poster: https://theposterdb.com/api/assets/80443
+  John Wick:
+    template: Collection
+    variables:
+      collection: 404609
+      poster: https://theposterdb.com/api/assets/11590
+  Johnny English:
+    template: Collection
+    variables:
+      collection: 86117
+      poster: https://theposterdb.com/api/assets/36966
+  Journey:
+    template: Collection
+    variables:
+      collection: 605516
+      poster: https://image.tmdb.org/t/p/original//rm6gnRcaf7rPLOIfqY28QVBO6AZ.jpg
+  Jumanji:
+    template: Collection
+    variables:
+      collection: 495527
+      poster: https://theposterdb.com/api/assets/8779
+  Jump Street:
+    template: Collection
+    variables:
+      collection: 212562
+      poster: https://theposterdb.com/api/assets/32498
+  Kick-Ass:
+    template: Collection
+    variables:
+      collection: 179892
+      poster: https://theposterdb.com/api/assets/436003
+  Kill Bill:
+    template: Collection
+    variables:
+      collection: 2883
+      movie: 414419
+      poster: https://theposterdb.com/api/assets/63400
+  Kingsman:
+    template: Collection
+    variables:
+      collection: 391860
+      poster: https://theposterdb.com/api/assets/178
+  Knives Out:
+    template: Collection
+    variables:
+      collection: 722971
+      poster: https://theposterdb.com/api/assets/301321
+  Lake Placid:
+    template: Collection
+    variables:
+      collection: 97768
+      poster: https://theposterdb.com/api/assets/74017
+  Lethal Weapon:
+    template: Collection
+    variables:
+      collection: 945
+      poster: https://theposterdb.com/api/assets/148987
+  The Lord of the Rings:
+    template: Collection
+    variables:
+      collection: 119
+      poster: https://theposterdb.com/api/assets/191462
+  The Lion King:
+    template: Collection
+    variables:
+      collection: "94032, 762512"
+      poster: https://theposterdb.com/api/assets/82630
+  Mad Max:
+    template: Collection
+    variables:
+      collection: 8945
+      poster: https://theposterdb.com/api/assets/8317
+  The Mangler:
+    template: Collection
+    variables:
+      collection: 374418
+      poster: https://theposterdb.com/api/assets/155147
+  The Matrix:
+    template: Collection
+    variables:
+      collection: 2344
+      poster: https://theposterdb.com/api/assets/147306
+  The Maze Runner:
+    template: Collection
+    variables:
+      collection: 295130
+      poster: https://theposterdb.com/api/assets/400188
+  The Meg:
+    template: Collection
+    variables:
+      collection: 742536
+      poster: https://theposterdb.com/api/assets/401365
+  Meet the Parents:
+    template: Collection
+    variables:
+      collection: 51509
+      poster: https://theposterdb.com/api/assets/103530
+  Men In Black:
+    template: Collection
+    variables:
+      collection: 86055
+      poster: https://theposterdb.com/api/assets/16550
+  Mortal Kombat:
+    template: Collection
+    variables:
+      collection: 9818
+      movie: "664767, 460465"
+      poster: https://theposterdb.com/api/assets/6106
+  The Mummy:
+    template: Collection
+    variables:
+      collection: 1733
+      movie: 282035
+      poster: https://theposterdb.com/api/assets/460917
+  Magic Mike:
+    template: Collection
+    variables:
+      collection: 328247
+      poster: https://theposterdb.com/api/assets/46675
+  Maleficent:
+    template: Collection
+    variables:
+      collection: 531331
+      poster: https://theposterdb.com/api/assets/106114
+  Mamma Mia!:
+    template: Collection
+    variables:
+      collection: 458558
+      poster: https://theposterdb.com/api/assets/136451
+  Man of Steel:
+    template: Collection
+    variables:
+      collection: 209131
+      poster: https://theposterdb.com/api/assets/248686
+  Marvel's Spider-Man:
+    template: Collection
+    variables:
+      collection: 531241
+      poster: https://theposterdb.com/api/assets/162893
+  Mary Poppins:
+    template: Collection
+    variables:
+      collection: 527439
+      poster: https://theposterdb.com/api/assets/2631
+  Mission Impossible:
+    template: Collection
+    variables:
+      collection: 87359
+      poster: https://theposterdb.com/api/assets/12118
+  The Mask:
+    template: Collection
+    variables:
+      collection: 43072
+      poster: https://theposterdb.com/api/assets/76728
+  Mechanic:
+    template: Collection
+    variables:
+      collection: 280504
+      poster: https://theposterdb.com/api/assets/435921
+  MonsterVerse:
+    template: Collection
+    variables:
+      collection: "535313, 293167"
+      poster: https://theposterdb.com/api/assets/448394
+  Mr. Bean:
+    template: Collection
+    variables:
+      collection: 103372
+      poster: https://theposterdb.com/api/assets/6713
+  Murder Mystery:
+    template: Collection
+    variables:
+      collection: 929336
+      poster: https://theposterdb.com/api/assets/346595
+  Mythica:
+    template: Collection
+    variables:
+      collection: 363092
+      poster: https://theposterdb.com/api/assets/2585
+  A Nightmare on Elm Street:
+    template: Collection
+    variables:
+      collection: 8581
+      movie: "6466, 23437"
+      poster: https://theposterdb.com/api/assets/27006
+  Naked Gun:
+    template: Collection
+    variables:
+      collection: 37139
+      poster: https://theposterdb.com/api/assets/5010
+  National Treasure:
+    template: Collection
+    variables:
+      collection: 2059
+      poster: https://theposterdb.com/api/assets/407251
+  Neighbors:
+    template: Collection
+    variables:
+      collection: 400700
+      poster: https://theposterdb.com/api/assets/92862
+  Never Back Down:
+    template: Collection
+    variables:
+      collection: 96676
+      poster: https://theposterdb.com/api/assets/83312
+  The Neverending Story:
+    template: Collection
+    variables:
+      collection: 91430
+      poster: https://theposterdb.com/api/assets/19956
+  Night at the Museum:
+    template: Collection
+    variables:
+      collection: 85943
+      poster: https://theposterdb.com/api/assets/83452
+  Now You See Me:
+    template: Collection
+    variables:
+      collection: 382685
+      poster: https://theposterdb.com/api/assets/10165
+  The Nun:
+    template: Collection
+    variables:
+      collection: 968052
+      poster: https://theposterdb.com/api/assets/402597
+  Ocean's:
+    template: Collection
+    variables:
+      collection: 304
+      movie: 402900
+      poster: https://theposterdb.com/api/assets/64818
+  Ouija:
+    template: Collection
+    variables:
+      collection: 426103
+      poster: https://theposterdb.com/api/assets/18184
+  One Shot:
+    template: Collection
+    variables:
+      collection: 1214316
+      poster: https://theposterdb.com/api/assets/468300
+  Pet Sematary:
+    template: Collection
+    variables:
+      collection: 10789
+      movie: 157433
+      poster: https://theposterdb.com/api/assets/155146
+  Pirates of the Caribbean:
+    template: Collection
+    variables:
+      collection: 295
+      poster: https://theposterdb.com/api/assets/71934
+  Planet of the Apes:
+    template: Collection
+    variables:
+      collection: 173710
+      poster: https://theposterdb.com/api/assets/346989
+  Police Academy:
+    template: Collection
+    variables:
+      collection: 9338
+      poster: https://theposterdb.com/api/assets/217968
+  Poltergeist:
+    template: Collection
+    variables:
+      collection: 10453
+      movie: 243688
+      poster: https://theposterdb.com/api/assets/89048
+  Predator:
+    template: Collection
+    variables:
+      collection: 399
+      poster: https://theposterdb.com/api/assets/40667
+  The Purge:
+    template: Collection
+    variables:
+      collection: 256322
+      poster: https://theposterdb.com/api/assets/165923
+  Pacific Rim:
+    template: Collection
+    variables:
+      collection: 363369
+      poster: https://theposterdb.com/api/assets/61709
+  Paranormal Activity:
+    template: Collection
+    variables:
+      collection: 41437
+      poster: https://theposterdb.com/api/assets/100682
+  Percy Jackson:
+    template: Collection
+    variables:
+      collection: 179919
+      poster: https://theposterdb.com/api/assets/52875
+  The Pink Panther:
+    template: Collection
+    variables:
+      collection: 130440
+      poster: https://theposterdb.com/api/assets/176085
+  Pitch Perfect:
+    template: Collection
+    variables:
+      collection: 306031
+      poster: https://theposterdb.com/api/assets/51606
+  Prometheus:
+    template: Collection
+    variables:
+      collection: 135416
+      poster: https://theposterdb.com/api/assets/209241
+  Psycho:
+    template: Collection
+    variables:
+      collection: 119674
+      movie: 11252
+      poster: https://theposterdb.com/api/assets/213304
+  The Punisher:
+    template: Collection
+    variables:
+      collection: 635362
+      movie: 8867
+      poster: https://theposterdb.com/api/assets/163920
+  A Quiet Place:
+    template: Collection
+    variables:
+      collection: 521226
+      poster: https://theposterdb.com/api/assets/73709
+  Rambo:
+    template: Collection
+    variables:
+      collection: 5039
+      poster: https://theposterdb.com/api/assets/21241
+  Resident Evil:
+    template: Collection
+    variables:
+      collection: 17255
+      movie: 460458
+      poster: https://theposterdb.com/api/assets/83685
+  Rebel Moon:
+    template: Collection
+    variables:
+      collection: 934765
+      poster: https://theposterdb.com/api/assets/444351
+  RoboCop:
+    template: Collection
+    variables:
+      collection: 5547
+      movie: 97020
+      poster: https://theposterdb.com/api/assets/75745
+  Rocky:
+    template: Collection
+    variables:
+      collection: 1575
+      poster: https://theposterdb.com/api/assets/66551
+  The Raid:
+    template: Collection
+    variables:
+      collection: 257960
+      poster: https://theposterdb.com/api/assets/23698
+  "[REC]":
+    template: Collection
+    variables:
+      collection: 74508
+      poster: https://theposterdb.com/api/assets/213265
+  RED:
+    template: Collection
+    variables:
+      collection: 163902
+      poster: https://theposterdb.com/api/assets/7154
+  Red Riding:
+    template: Collection
+    variables:
+      collection: 291090
+      poster: https://theposterdb.com/api/assets/70001
+  Ride Along:
+    template: Collection
+    variables:
+      collection: 376650
+      poster: https://theposterdb.com/api/assets/63947
+  The Ring:
+    template: Collection
+    variables:
+      collection: 14563
+      poster: https://theposterdb.com/api/assets/5444
+  The Robert Langdon Collection:
+    template: Collection
+    variables:
+      collection: 115776
+      poster: https://theposterdb.com/api/assets/841
+  Rush Hour:
+    template: Collection
+    variables:
+      collection: 90863
+      poster: https://theposterdb.com/api/assets/82708
+  Saw:
+    template: Collection
+    variables:
+      collection: 656
+      movie: 602734
+      poster: https://theposterdb.com/api/assets/155363
+  Scary Movie:
+    template: Collection
+    variables:
+      collection: 4246
+      poster: https://theposterdb.com/api/assets/66937
+  Scream:
+    template: Collection
+    variables:
+      collection: 2602
+      poster: https://theposterdb.com/api/assets/804
+  Star Trek:
+    template: Collection
+    variables:
+      collection: "115575, 115570, 151"
+      poster: https://theposterdb.com/api/assets/21270
+  "Star Wars: The Complete Collection" :
+    template: Collection
+    variables:
+      collection: 10
+      movie: "348350, 330459"
+      poster: https://theposterdb.com/api/assets/133720
+      summary: "The Complete Saga Of Star Wars"
+  The Santa Clause:
+    template: Collection
+    variables:
+      collection: 53159
+      poster: https://theposterdb.com/api/assets/25716
+  The Scorpion King:
+    template: Collection
+    variables:
+      collection: 116669
+      poster: https://theposterdb.com/api/assets/8432
+  Sex and the City:
+    template: Collection
+    variables:
+      collection: 50457
+      poster: https://theposterdb.com/api/assets/67887
+  Shazam!:
+    template: Collection
+    variables:
+      collection: 724848
+      poster: https://i.redd.it/pf7zugbyt2v21.jpg
+  Sherlock Holmes:
+    template: Collection
+    variables:
+      collection: 102322
+      poster: https://theposterdb.com/api/assets/83695
+  The Shining:
+    template: Collection
+    variables:
+      collection: 530064
+      poster: https://theposterdb.com/api/assets/32301
+  Sicario:
+    template: Collection
+    variables:
+      collection: 496796
+      poster: https://theposterdb.com/api/assets/139267
+  Silent Hill:
+    template: Collection
+    variables:
+      collection: 64748
+      poster: https://theposterdb.com/api/assets/11690
+  Silent Night, Deadly Night:
+    template: Collection
+    variables:
+      collection: 256296
+      poster: https://theposterdb.com/api/assets/100690
+  Sniper:
+    template: Collection
+    variables:
+      collection: 14246
+      poster: https://theposterdb.com/api/assets/219550
+  Smile:
+    template: Collection
+    variables:
+      collection: 1100788
+      poster: https://theposterdb.com/api/assets/460892
+  Space Jam:
+    template: Collection
+    variables:
+      collection: 722961
+      poster: https://theposterdb.com/api/assets/163484
+  Spider-Man:
+    template: Collection
+    variables:
+      collection: 556
+      poster: https://theposterdb.com/api/assets/163870
+  Spy Kids:
+    template: Collection
+    variables:
+      collection: 86486
+      poster: https://theposterdb.com/api/assets/116770
+  Step Up:
+    template: Collection
+    variables:
+      collection: 86092
+      poster: https://theposterdb.com/api/assets/66560
+  Stomp the Yard:
+    template: Collection
+    variables:
+      collection: 160727
+      poster: https://theposterdb.com/api/assets/55528
+  Suicide Squad:
+    template: Collection
+    variables:
+      collection: 531242
+      movie: 495764
+      poster: https://theposterdb.com/api/assets/206381
+  Superman:
+    template: Collection
+    variables:
+      collection: 8537
+      poster: https://theposterdb.com/api/assets/72726
+  Taken:
+    template: Collection
+    variables:
+      collection: 135483
+      poster: https://theposterdb.com/api/assets/8826
+  Teenage Mutant Ninja Turtles:
+    template: Collection
+    variables:
+      collection: 401562
+      poster: https://theposterdb.com/api/assets/60981
+  The Terminator:
+    template: Collection
+    variables:
+      collection: 528
+      poster: https://theposterdb.com/api/assets/26461
+  The Twisted Childhood Universe:
+    template: Collection
+    variables:
+      collection: 1079486
+      poster: https://theposterdb.com/api/assets/480610
+  Texas Chainsaw Massacre:
+    template: Collection
+    variables:
+      collection: "111751, 425175"
+      poster: https://theposterdb.com/api/assets/209103
+  Transformers:
+    template: Collection
+    variables:
+      collection: 8650
+      movie: "424783, 667538"
+      poster: https://theposterdb.com/api/assets/84244
+  The Transporter:
+    template: Collection
+    variables:
+      collection: 9518
+      poster: https://theposterdb.com/api/assets/69471
+  Taxi:
+    template: Collection
+    variables:
+      collection: 211721
+      poster: https://theposterdb.com/api/assets/57609
+  Ted:
+    template: Collection
+    variables:
+      collection: 266672
+      poster: https://theposterdb.com/api/assets/14096
+  Thor:
+    template: Collection
+    variables:
+      collection: 131296
+      poster: https://theposterdb.com/api/assets/162895
+  Tomb Raider:
+    template: Collection
+    variables:
+      collection: 2467
+      movie: 338970
+      poster: https://theposterdb.com/api/assets/393295
+  Top Gun:
+    template: Collection
+    variables:
+      collection: 531330
+      poster: https://theposterdb.com/api/assets/251589
+  Tooth Fairy:
+    template: Collection
+    variables:
+      collection: 222634
+      poster: https://theposterdb.com/api/assets/173415
+  TRON:
+    template: Collection
+    variables:
+      collection: 63043
+      poster: https://theposterdb.com/api/assets/81417
+  Twilight Saga:
+    template: Collection
+    variables:
+      collection: 33514
+      poster: https://theposterdb.com/api/assets/1132
+  Unbreakable:
+    template: Collection
+    variables:
+      imdb_list: https://www.imdb.com/list/ls022101006/
+      url_poster: https://theposterdb.com/api/assets/56425
+      summary: The Unbreakable trilogy, officially known as the Eastrail 177 Trilogy, is an American superhero thriller and psychological horror film series. The films were written, produced, and directed by M. Night Shyamalan. The trilogy consists of Unbreakable (2000), Split (2016), and Glass (2019).
+  Underworld:
+    template: Collection
+    variables:
+      collection: 2326
+      poster: https://theposterdb.com/api/assets/74996
+  Unbroken:
+    template: Collection
+    variables:
+      collection: 725873
+      poster: https://theposterdb.com/api/assets/221914
+  Undisputed:
+    template: Collection
+    variables:
+      collection: 117777
+      poster: https://theposterdb.com/api/assets/171812
+  Untold:  
+    template: Collection
+    variables:
+      collection: 1003332
+      poster: https://theposterdb.com/api/assets/177301/
+  V/H/S:
+    template: Collection
+    variables:
+      collection: 207621
+      poster: https://theposterdb.com/api/assets/103361
+  Venom:
+    template: Collection
+    variables:
+      collection: 558216
+      poster: https://theposterdb.com/api/assets/163925
+  Wrong Turn:
+    template: Collection
+    variables:
+      collection: 52985
+      movie: 630586
+      poster: https://theposterdb.com/api/assets/181598
+  The Wolverine:
+    template: Collection
+    variables:
+      collection: 453993
+      poster: https://theposterdb.com/api/assets/163887
+  Wonder Woman:
+    template: Collection
+    variables:
+      collection: 468552
+      poster: https://image.tmdb.org/t/p/original//8AQRfTuTHeFTddZN4IUAqprN8Od.jpg
+  X Collection:
+    template: Collection
+    variables:
+      collection: 950289
+      poster: https://theposterdb.com/api/assets/498910
+  X-Men:
+    template: Collection
+    variables:
+      collection: "748, 453993, 448150"
+      movie: 567604
+      poster: https://theposterdb.com/api/assets/163839
+  xXx:
+    template: Collection
+    variables:
+      collection: 52785
+      poster: https://theposterdb.com/api/assets/5503
+  The X Files:
+    template: Collection
+    variables:
+      collection: 19387
+      poster: https://theposterdb.com/api/assets/375030
 
