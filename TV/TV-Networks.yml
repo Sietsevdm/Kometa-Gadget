@@ -1,1 +1,121 @@
+collections:
+  AMC:
+    sort_title: +03{{collection_name}}
+    trakt_list:
+      - https://trakt.tv/users/brocchetti/lists/amc
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/220355/
+  
+  A&E:
+    sort_title: +03{{collection_name}}
+    trakt_list:
+      - https://trakt.tv/users/shaunatkins11/lists/a-e-tv
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/220351/
+  
+  Apple TV+:
+    sort_title: +03{{collection_name}}
+    trakt_list:
+      - https://trakt.tv/users/adamosborne01/lists/apple-tv
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/220356/
+  
+  Cinemax:
+    sort_title: +03{{collection_name}}
+    trakt_list:
+      - https://trakt.tv/users/shaunatkins11/lists/cinemax-tv
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/220359/
+  
+  Disney+:
+    sort_title: +03{{collection_name}}
+    trakt_list:
+      - https://trakt.tv/users/adamosborne01/lists/disney
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/220353/
+  
+  Discovery:
+    sort_title: +03{{collection_name}}
+    trakt_list:
+      - https://trakt.tv/users/domesticwarlord86/lists/discovery
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/220371/
+  
+  FX:
+    sort_title: +03{{collection_name}}
+    trakt_list:
+      - https://trakt.tv/users/brocchetti/lists/fx
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/220367/
+  
+  Hulu:
+    sort_title: +03{{collection_name}}
+    trakt_list:
+      - https://trakt.tv/users/adamosborne01/lists/hulu
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/220348/
+  
+  Netflix Originals:
+    sort_title: +03{{collection_name}}
+    trakt_list:
+      - https://trakt.tv/users/adamosborne01/lists/netflix
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/220354/
+  
+  Paramount+:
+    sort_title: +03{{collection_name}}
+    trakt_list:
+      - https://trakt.tv/users/brocchetti/lists/paramount
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/220566/
+  
+  Amazon Originals:
+    sort_title: +03{{collection_name}}
+    trakt_list:
+      - https://trakt.tv/users/garycrawfordgc/lists/amazon-prime-shows
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/222004/
+  
+  Starz:
+    sort_title: +03{{collection_name}}
+    trakt_list:
+      - https://trakt.tv/users/sig1878/lists/tv-starz
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/220376/
+  
+  SyFy:
+    sort_title: +03{{collection_name}}
+    trakt_list:
+      - https://trakt.tv/users/adamosborne01/lists/syfy
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/220374/
+  
+  MasterClass:
+    sort_title: +04{{collection_name}}
+    trakt_list:
+      - https://trakt.tv/users/quickflix/lists/masterclass?sort=rank,asc
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://artworks.thetvdb.com/banners/series/362158/posters/62001808.jpg
+
+  Showtime:
+    sort_title: +03{{collection_name}}
+    trakt_list:
+      - https://trakt.tv/users/brocchetti/lists/showtime
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/220378/
 
