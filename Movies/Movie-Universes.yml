@@ -32,11 +32,20 @@ collections:
     collection_order: custom
     sync_mode: sync
     url_poster: https://theposterdb.com/api/assets/191460
+    summary: |
+      Middle-earth, created by J.R.R. Tolkien, is a richly detailed fantasy world from The Hobbit and The Lord of the Rings. 
+      It features diverse races like Elves, Dwarves, and Hobbits, along with magical beings. 
+      Key themes include the battle between good and evil, the corrupting power of the One Ring, and the strength of friendship and courage.
 
   DC Extended Universe:
     trakt_list: https://trakt.tv/users/rzepkowski/lists/dc-extended-universe-movies?sort=released,desc
     sync_mode: sync
     url_poster: https://theposterdb.com/api/assets/48242
+    summary: |
+      The DC Extended Universe (DCEU) is a series of interconnected superhero films based on DC Comics characters like Superman, 
+      Batman, Wonder Woman, and Aquaman. It focuses on their battles against powerful villains to save the world, while exploring themes of heroism, 
+      identity, and justice. The films are known for their darker tone, expansive world-building, and crossovers between characters, 
+      creating a shared cinematic universe.
 
   Disney Live-Action Remakes:
     trakt_list: https://trakt.tv/users/smwixted/lists/disney-animated-live-action-remakes?sort=released,desc
