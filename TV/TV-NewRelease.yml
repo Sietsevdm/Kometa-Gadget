@@ -9,7 +9,7 @@ external_templates:
   default: templates
   template_variables:
     collection_section: "010"
-    image: chart/<<mapping_name_encoded>>
+    url_poster_<<key>>: https://github.com/Sietsevdm/Kometa-Gadget/blob/main/Images/Charts/<<mapping_name_encoded>>.jpg
 
 collections:
   Newly Released:
