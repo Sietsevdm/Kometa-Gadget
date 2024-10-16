@@ -43,7 +43,7 @@ collections:
 
   Disney Live-Action Remakes:
     sort_title: "!03_{{collection_name}}"
-    trakt_list: https://trakt.tv/users/kuilvio/lists/disney-animations?sort=released,asc
+    trakt_list: https://trakt.tv/users/toasterfaerie/lists/disney-live-action-remakes?sort=released,asc
     limit: 250
     collection_order: release.desc
     sync_mode: sync
