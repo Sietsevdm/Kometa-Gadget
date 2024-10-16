@@ -6,7 +6,7 @@ libraries:
 
   TV Shows:
     metadata:
-      - folder: github_repo/TV Shows  # Folder path in the repository where TV show .yml files are stored
+      - folder: github_repo/TV  # Folder path in the repository where TV show .yml files are stored
         schedule: weekly(monday)
 
 playlists:
@@ -34,7 +34,7 @@ custom_repo:
   branch: main  # Branch name (default is main)
   files:
     - path: movies  # Path within the GitHub repository for movie metadata
-    - path: tvshows  # Path within the GitHub repository for TV shows metadata
+    - path: tv  # Path within the GitHub repository for TV shows metadata
     - path: playlists  # Path within the GitHub repository for playlists
 
 plex:
