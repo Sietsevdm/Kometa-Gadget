@@ -32,6 +32,22 @@ collections:
     collection_order: release.desc
     sync_mode: sync
     url_poster: https://theposterdb.com/api/assets/170834/
+
+  Disney Animation:
+    sort_title: "!03_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/kuilvio/lists/disney-animations?sort=released,asc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/520102/
+
+  Disney Live-Action Remakes:
+    sort_title: "!03_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/kuilvio/lists/disney-animations?sort=released,asc
+    limit: 250
+    collection_order: release.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/86910/
     
   Top Movies on Netflix:
     sort_title: "!04_{{collection_name}}"
