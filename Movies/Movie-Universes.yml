@@ -47,16 +47,6 @@ collections:
       identity, and justice. The films are known for their darker tone, expansive world-building, and crossovers between characters, 
       creating a shared cinematic universe.
 
-  Disney Live-Action Remakes:
-    trakt_list: https://trakt.tv/users/smwixted/lists/disney-animated-live-action-remakes?sort=released,desc
-    sync_mode: sync
-    url_poster: https://theposterdb.com/api/assets/200068
-
-  Disney Animation:
-    trakt_list: https://trakt.tv/users/kuilvio/lists/disney-animations?sort=released,asc
-    sync_mode: sync
-    url_poster: https://theposterdb.com/api/assets/11845
-
   The Karate Kid:
     trakt_list: https://trakt.tv/users/allindo/lists/karate-kid?sort=rank,asc
     sync_mode: sync
