@@ -30,7 +30,7 @@ templates:
       item_radarr_tag_<<key>>: <<item_radarr_tag>>
       item_sonarr_tag_<<key>>: <<item_sonarr_tag>>
       trakt_list_<<key>>: <<trakt_list>>
-      url_poster_<<key>>: https://github.com/Sietsevdm/Kometa-Gadget/blob/main/Images/Playlist/<<mapping_name_encoded>>.jpg
+      url_poster_<<key>>: https://raw.githubusercontent.com/Sietsevdm/Kometa-Gadget/refs/heads/main/Images/Playlist/<<mapping_name_encoded>>.jpg
       name_<<key>>: <<mapping_name>>
       sync_to_users_<<key>>: <<sync_to_users>>
       exclude_users_<<key>>: <<exclude_users>>
