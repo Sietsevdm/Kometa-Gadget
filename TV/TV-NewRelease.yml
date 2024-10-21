@@ -9,7 +9,7 @@ external_templates:
   default: templates
   template_variables:
     collection_section: "010"
-    url_poster_<<key>>: https://raw.githubusercontent.com/Sietsevdm/Kometa-Gadget/refs/heads/main/Images/Charts/RecentlyReleased.jpg
+    url_poster: https://raw.githubusercontent.com/Sietsevdm/Kometa-Gadget/refs/heads/main/Images/Charts/RecentlyReleased.jpg
 
 collections:
   Newly Released:
