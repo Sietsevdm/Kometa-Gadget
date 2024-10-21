@@ -9,24 +9,13 @@ external_templates:
   default: templates
   template_variables:
     collection_section: "020"
-    image: https://raw.githubusercontent.com/Sietsevdm/Kometa-Gadget/refs/heads/main/Images/Charts/<<mapping_name_encoded>>
+    url_poster: https://raw.githubusercontent.com/Sietsevdm/Kometa-Gadget/refs/heads/main/Images/Charts/IMdBTop250.jpg
 
 templates:
   imdb_chart:
     imdb_chart: <<chart>>_<<library_type>>s
 
 collections:
-  IMDb Popular:
-    variables:
-      key: popular
-    template:
-      - name: imdb_chart
-        chart: popular
-      - name: shared
-        translation_key: imdb_popular
-      - name: arr
-      - name: custom
-
   IMDb Top 250:
     variables:
       key: top
