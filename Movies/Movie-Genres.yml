@@ -15,7 +15,7 @@ templates:
     collection_order: custom
 
 collections:
-    DreamWorks:
+  DreamWorks:
     sort_title: "!03_{{collection_name}}"
     trakt_list: https://trakt.tv/users/hdlists/lists/dreamworks-movie-collection?sort=released,desc
     limit: 250
