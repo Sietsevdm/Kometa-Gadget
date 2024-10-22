@@ -17,6 +17,7 @@ templates:
 collections:
 
   Marvel Cinematic Universe:
+    sort_title: "!03_{{collection_name}}"
     trakt_list: https://trakt.tv/users/drob70/lists/mcu-movies?sort=released,desc
     collection_order: custom
     sync_mode: sync
@@ -28,6 +29,7 @@ collections:
       and Doctor Strange to Spider-Man and Iron Man.
 
   Middle Earth:
+    sort_title: "!03_{{collection_name}}"
     trakt_list: https://trakt.tv/users/jjmalpz/lists/middle-earth?sort=rank,asc
     collection_order: custom
     sync_mode: sync
@@ -38,7 +40,8 @@ collections:
       Key themes include the battle between good and evil, the corrupting power of the One Ring, and the strength of friendship and courage.
 
   DC Extended Universe:
-    trakt_list: https://trakt.tv/users/rzepkowski/lists/dc-extended-universe-movies?sort=released,desc
+    sort_title: "!03_{{collection_name}}"
+    trakt_list: https://trakt.tv/users/rzepkowski/lists/dc-live-action-movies?sort=released,desc
     sync_mode: sync
     url_poster: https://theposterdb.com/api/assets/48242
     summary: |
