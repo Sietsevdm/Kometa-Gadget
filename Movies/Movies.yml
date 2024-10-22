@@ -1194,6 +1194,11 @@ collections:
     variables:
       collection: 530064
       poster: https://theposterdb.com/api/assets/32301
+  The Strangers:
+    template: Collection
+    variables:
+      collection: 1172926
+      poster: https://theposterdb.com/api/assets/498974
   Sicario:
     template: Collection
     variables:
