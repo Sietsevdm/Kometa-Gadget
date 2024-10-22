@@ -918,6 +918,11 @@ collections:
     variables:
       collection: 363092
       poster: https://theposterdb.com/api/assets/2585
+  My Spy:
+    template: Collection
+    variables:
+      collection: 1090373
+      poster: https://theposterdb.com/api/assets/508877
   A Nightmare on Elm Street:
     template: Collection
     variables:
