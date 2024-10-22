@@ -8,7 +8,7 @@
 external_templates:
   default: templates
   template_variables:
-    collection_section: "020"
+    collection_section: "010"
     image: https://raw.githubusercontent.com/Sietsevdm/Kometa-Gadget/refs/heads/main/Images/Charts/<<mapping_name_encoded>>
 
 templates:
