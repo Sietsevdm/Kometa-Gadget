@@ -16,7 +16,7 @@ templates:
 
 collections:
   DreamWorks:
-    sort_title: "!03_{{collection_name}}"
+    sort_title: "!04_{{collection_name}}"
     trakt_list: https://trakt.tv/users/hdlists/lists/dreamworks-movie-collection?sort=released,desc
     limit: 250
     collection_order: release.desc
@@ -24,7 +24,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/164292/
 
   Pixar:
-    sort_title: "!03_{{collection_name}}"
+    sort_title: "!04_{{collection_name}}"
     trakt_list:
       - https://trakt.tv/users/toasterfaerie/lists/pixar?sort=released,desc
       - https://trakt.tv/users/chloe131997/lists/pixar?sort=released,desc
@@ -34,7 +34,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/170834/
 
   Disney Animation:
-    sort_title: "!03_{{collection_name}}"
+    sort_title: "!04_{{collection_name}}"
     trakt_list: https://trakt.tv/users/kuilvio/lists/disney-animations?sort=released,asc
     limit: 250
     collection_order: release.desc
@@ -42,7 +42,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/520102/
 
   Disney Live-Action Remakes:
-    sort_title: "!03_{{collection_name}}"
+    sort_title: "!04_{{collection_name}}"
     trakt_list: https://trakt.tv/users/toasterfaerie/lists/disney-live-action-remakes?sort=released,asc
     limit: 250
     collection_order: release.desc
@@ -50,7 +50,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/86910/
     
   Top Movies on Netflix:
-    sort_title: "!04_{{collection_name}}"
+    sort_title: "!05_{{collection_name}}"
     trakt_list: https://trakt.tv/users/hdlists/lists/best-movies-on-netflix-march-2021?sort=released,desc
     limit: 250
     collection_order: release.desc
@@ -58,7 +58,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/220354/
 
   Adventure Movies:
-    sort_title: "!05_{{collection_name}}"
+    sort_title: "!06_{{collection_name}}"
     trakt_list:
       - https://trakt.tv/users/movistapp/lists/adventure?sort=released,desc
       - https://trakt.tv/users/jtucci/lists/adventure?sort=released,desc
@@ -68,7 +68,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/52218/
 
   Alien Movies:
-    sort_title: "!05_{{collection_name}}"
+    sort_title: "!06_{{collection_name}}"
     trakt_list:
       - https://trakt.tv/users/29zombies/lists/aliens?sort=released,desc
       - https://trakt.tv/users/breez22/lists/alien-movies?sort=title,asc
@@ -78,7 +78,7 @@ collections:
     url_poster: https://i.imgur.com/TDyJQew.jpg
 
   Disaster Movies:
-    sort_title: "!05_{{collection_name}}"
+    sort_title: "!06_{{collection_name}}"
     trakt_list: https://trakt.tv/users/29zombies/lists/disaster?sort=released,desc
     limit: 250
     collection_order: release.desc
@@ -86,7 +86,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/212898/
 
   Mindbending Movies:
-    sort_title: "!05_{{collection_name}}"
+    sort_title: "!06_{{collection_name}}"
     trakt_list: https://trakt.tv/users/hdlists/lists/mindfuck-movies?sort=released,desc
     limit: 250
     collection_order: release.desc
@@ -94,7 +94,7 @@ collections:
     url_poster: https://i.imgur.com/CoHaPfp.jpg
 
   Plot Twist:
-    sort_title: "!05_{{collection_name}}"
+    sort_title: "!06_{{collection_name}}"
     trakt_list: https://trakt.tv/users/hdlists/lists/crazy-plot-twists?sort=released,desc
     limit: 250
     collection_order: release.desc
@@ -102,7 +102,7 @@ collections:
     url_poster: https://i.imgur.com/zzbfAVG.png
 
   Superhero Movies:
-    sort_title: "!05_{{collection_name}}"
+    sort_title: "!06_{{collection_name}}"
     trakt_list: https://trakt.tv/users/hdlists/lists/superhero-movies-from-1980-to-today?sort=released,desc
     limit: 250
     collection_order: release.desc
@@ -110,7 +110,7 @@ collections:
     url_poster: https://i.imgur.com/nBUlYMV.jpg
 
   Thriller Movies:
-    sort_title: "!05_{{collection_name}}"
+    sort_title: "!06_{{collection_name}}"
     trakt_list: https://trakt.tv/users/maxtrontv/lists/thriller-movies?sort=released,asc
     limit: 250
     collection_order: release.desc
@@ -118,7 +118,7 @@ collections:
     url_poster: https://i.imgur.com/mb2VcnK.jpg
 
   True Stories:
-    sort_title: "!05_{{collection_name}}"
+    sort_title: "!06_{{collection_name}}"
     trakt_list: https://trakt.tv/users/darksideno1/lists/true-story-movies?sort=released,asc
     limit: 250
     collection_order: release.desc
@@ -126,7 +126,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/242813/
 
   War Movies:
-    sort_title: "!05_{{collection_name}}"
+    sort_title: "!06_{{collection_name}}"
     trakt_list:
       - https://trakt.tv/users/movistapp/lists/war?sort=released,desc
       - https://trakt.tv/users/rizreflects/lists/war-movies?sort=released,asc
@@ -136,7 +136,7 @@ collections:
     url_poster: https://i.imgur.com/idQUTy3.jpg
 
   Top Rated Crime:
-    sort_title: "!06_{{collection_name}}"
+    sort_title: "!07_{{collection_name}}"
     trakt_list: https://trakt.tv/users/hdlists/lists/crime-movies-top-rated-from-1980-to-today?sort=released,desc
     limit: 250
     collection_order: release.desc
@@ -144,7 +144,7 @@ collections:
     url_poster: https://i.imgur.com/LDXOVu6.png
 
   Top Rated Documentary:
-    sort_title: "!06_{{collection_name}}"
+    sort_title: "!07_{{collection_name}}"
     trakt_list: https://trakt.tv/users/hdlists/lists/documentary-movies-top-rated-from-1980-to-today?sort=released,desc
     limit: 250
     collection_order: release.desc
@@ -152,7 +152,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/51430/
 
   Top Rated Horror:
-    sort_title: "!06_{{collection_name}}"
+    sort_title: "!07_{{collection_name}}"
     trakt_list: https://trakt.tv/users/hdlists/lists/horror-movies-top-rated-from-1960-to-today?sort=released,desc
     limit: 250
     collection_order: release.desc
@@ -160,7 +160,7 @@ collections:
     url_poster: https://i.imgur.com/nnHLz3K.png
 
   Top Rated Kids Animated:
-    sort_title: "!06_{{collection_name}}"
+    sort_title: "!07_{{collection_name}}"
     trakt_list: https://trakt.tv/users/hdlists/lists/children-s-animated-movies-from-1950-to-today?sort=released,desc
     limit: 250
     collection_order: release.desc
