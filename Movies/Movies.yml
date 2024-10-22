@@ -934,11 +934,6 @@ collections:
     variables:
       collection: 37139
       poster: https://theposterdb.com/api/assets/5010
-  National Treasure:
-    template: Collection
-    variables:
-      collection: 2059
-      poster: https://theposterdb.com/api/assets/407251
   Neighbors:
     template: Collection
     variables:
