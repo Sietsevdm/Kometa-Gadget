@@ -706,7 +706,7 @@ collections:
     template: Collection
     variables:
       collection: 987044
-      poster: https://theposterdb.com/api/assets/344062
+      poster: https://theposterdb.com/api/assets/523599
   Joyride:
     template: Collection
     variables:
